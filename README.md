@@ -9,4 +9,4 @@ This simple project is my first contact with Python.
 ### Model
 ---
 
-![Budget model](https://photos.app.goo.gl/yAXAAUPDwioB6CAk7)
+![Budget model](https://photos.google.com/photo/AF1QipOgiILKscNdm_9gXXSONrXZKEOjQZzXuhnAlV_q)
