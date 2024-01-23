@@ -1,23 +1,23 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
-project_description = input("Digite a descrição do projeto: ");
-estimated_hours = input("Digite a estimativa de horas para conclusão: ");
-hour_price = input("Digite o valor da hora trabalhada: ");
-estimated_time = input("Digite o prazo estimado: ");
+project_description = input("Type the project description: ");
+estimated_hours = input("Type estimated hours to finish the project: ");
+hour_price = input("Type the value per worked hour: ");
+estimated_time = input("Type the estimated deadline: ");
 
 
-# In[2]:
+# In[ ]:
 
 
 estimated_value_total = int(estimated_hours) * int(hour_price);
 print(estimated_value_total);
 
 
-# In[6]:
+# In[ ]:
 
 
 from fpdf import FPDF;
@@ -34,9 +34,9 @@ pdf.text(115, 190, estimated_time);
 pdf.text(115, 205, str(estimated_value_total));
 
 
-# In[7]:
+# In[ ]:
 
 
-pdf.output("orçamento.pdf");
-print("Orçamento gerado com sucesso.");
+pdf.output("budget.pdf");
+print("Budget generated with success.");
 
